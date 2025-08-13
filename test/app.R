@@ -28,8 +28,8 @@ options(rsconnect.packrat = FALSE)
 # Яг энэ сесс дээр шалгахад:
 getOption("rsconnect.packrat")
 # > [1] FALSE  ✅ гэж гарах ёстой
-readRDS("measles.RDS") -> data
-readRDS("map1.rds") -> map1
+#readRDS("measles.RDS") -> data
+#readRDS("map1.rds") -> map1
 # Load data from Google Sheets
 # Option 1: using the full URL
 sheet_url <- "https://docs.google.com/spreadsheets/d/1m8TOXucgRqP13_vYqUVhLmThrK33XWXdOrv5PsDOqew/edit#gid=919168862"
