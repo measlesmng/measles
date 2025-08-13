@@ -22,6 +22,8 @@ library(rsconnect)
 
 setwd("C:/Users/batzo/OneDrive/Documents/shiny/test4/")
 getwd()
+#setwd("C:/Users/batzo/OneDrive/Documents/shiny/test4/")
+#getwd()
 library(googlesheets4)
 gs4_deauth()
 options(rsconnect.packrat = FALSE)
